@@ -27,14 +27,14 @@ Since Fast RCNN was  a very bulky model and the native implementation of it requ
 
 To change the keras and tensorflow version in google colab also required to cuda.
 The following lines of code installed a new version of keras, tensorflow and cuda:
-!pip uninstall tensorflow
-!pip install keras==2.2.0
-!pip install tensorflow-gpu==1.8.0
-!wget https://developer.nvidia.com/compute/cuda/9.0/Prod/local_installers/cuda-repo-ubuntu1604-9-0-local_9.0.176-1_amd64-deb
-!dpkg -i cuda-repo-ubuntu1604-9-0-local_9.0.176-1_amd64-deb
-!apt-key add /var/cuda-repo-9-0-local/7fa2af80.pub
-!apt-get update 
-!apt-get install cuda=9.0.176-1
+!pip uninstall tensorflow\
+!pip install keras==2.2.0\
+!pip install tensorflow-gpu==1.8.0\
+!wget https://developer.nvidia.com/compute/cuda/9.0/Prod/local_installers/cuda-repo-ubuntu1604-9-0-local_9.0.176-1_amd64-deb \
+!dpkg -i cuda-repo-ubuntu1604-9-0-local_9.0.176-1_amd64-deb\
+!apt-key add /var/cuda-repo-9-0-local/7fa2af80.pub\
+!apt-get update\
+!apt-get install cuda=9.0.176-1\
 
   
 
